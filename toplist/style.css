@@ -1,5 +1,19 @@
-.title {
-	color: blue;
-	font-weight: bold;
-	font-style: oblique;
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.description {
+	max-width: 705px;
+}
+
+.screenshot {
+	max-width: 460px;
+}
+
+.app {
+	display: -webkit-flex;
+	display: flex;
 }
